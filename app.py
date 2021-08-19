@@ -20,7 +20,7 @@ trainer.train('chatterbot.corpus.english')
 
 # Now we can export the data to a file
 trainer.export_for_training('./my_export.json')
-
+trainer.export_for_training('./train_vietnam.json')
 @app.route("/")
 def home():
     return render_template("index.html")
